@@ -54,7 +54,10 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
-
+git rm --cached src/main/resources/application.yaml
+git add .
+git commit -m "Removed secrets from config"
+git push origin master --force
 # Coverage / test output
 coverage/
 
