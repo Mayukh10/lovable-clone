@@ -31,3 +31,30 @@ build/
 
 ### VS Code ###
 .vscode/
+# ======================
+# Custom Additions
+# ======================
+
+# Environment variables (IMPORTANT)
+.env
+.env.*
+*.env
+
+# Node (if frontend exists)
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage / test output
+coverage/
+
